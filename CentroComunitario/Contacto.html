@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #C8A2C8;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contenedor {
+            display: flex;
+            align-items: center;
+        }
+
+        .contenedor img {
+            max-width: 50px;
+            margin-right: 10px; /* Espacio entre la imagen y los enlaces */
+        }
+        nav {
+            flex-grow: 1;
+            display: flex; /* Utiliza Flexbox para alinear los enlaces */
+            justify-content: flex-end; /* Alinea los enlaces */
+        }
+        nav a {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+/* Estilos para los enlaces de navegación cuando se coloca el cursor sobre ellos */
+        nav a:hover {
+            background-color: black;
+            color: white;
+        }
+        h1{                        /*estilos de formulario*/
+            text-align: center;
+            color: rgb(0,0,0)
+        }
+        form{
+            text-align: center;
+            color: rgb(0, 0,0)
+        }
+        .abrazo{
+            text-align: center;
+        }
+
+        .boton{
+            color: rgb(0, 0, 0)
+
+        }
+        .centro {
+            text-align: center; /*Centramos la informacion y la imagen*/
+            color: black;
+            text-decoration: solid;
+        }
+    </style>
+    <title>Contacto</title>
+    <link rel="icon" type="image" href="./src/logosinfondoblanco.png"> <!--K-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor"> <!--Alma-->
+        <a href="index.html"><img src="./src/cc-AdaLovelace-sinfondo.png" alt="Logo" height="100" width="500">
+        </a>
+            <nav>
+            <a href="./Nosotros.html">Nosotros</a>
+            <a href="./Servicios.html">Servicios</a>
+            <a href="./Contacto.html">Contacto</a>
+        </nav>
+    </div>
+    </div>
+     <div> <!--Abril-->
+        <h1>CONTACTO</h1>
+        <div class="abrazo">
+    <img src="./src/sororidad123.png" alt="CONTACTOMujeres" width="255" height="255">
+    <br/>
+</div>
+    <form action="">
+        <br/>
+        <br/>
+        <label for="">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Por favor ingrese su nombre" required><br/>
+        <br/>
+        <label for="">Teléfono:</label>
+        <input type="number" id="teléfono" name="telefono" placeholder="Por favor ingrese su teléfono" required><br/>
+        <br/>
+        <label for="txtEmail">Email:</label>
+        <input type="text" id="txtEmail" name="correo electrónico" placeholder="Por favor ingrese su correo electrónico" required><br/>
+        <br/>
+        <label for="">Asunto:</label><br/>
+            <textarea rows="3" cols="60" required></textarea><br/>
+        <br/>
+        <label for="">Mensaje:</label><br/>
+        <textarea rows="6" cols="100" required></textarea><br/>
+        <br/>
+        <button class="boton">Enviar</button>
+    </form>
+</div>
+    <footer class="centro"> <!--Luz-->
+        <div>
+            <p>
+                <br>Calle la Luz #4588, CP 44630, Guadalajara, Jal. Mexico
+                <br>Telefono: +52 33 2477 4565
+                <br>Horario de atencion: L - V 9:00 a 18:00
+                <br>E-mail: centrocomunitarior@gmail.com
+            </p>
+            <img src="./src/redes.png" alt="" width="360px" height="80px">
+        </div>
+    </footer>
+</body>
+</html>

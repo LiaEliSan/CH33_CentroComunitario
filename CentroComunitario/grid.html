@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image" href="./src/logosinfondoblanco.png">
+    <!-- K -->
+<style>
+.grid-container{
+            display: grid;
+            gap: 10px;
+            grid-template-areas: 
+            "header"
+            "navbar"
+            "main"
+            "sidebar"
+            "footer"
+            
+            
+            ;
+        }
+
+
+@media(min-width:780px){
+.grid-container{
+            grid-template-columns: 200px auto;
+            grid-template-rows: 100px 50px auto 100px;
+            grid-template-areas: 
+             "header header"
+            "navbar navbar"
+            "sidebar main"
+            "footer footer";
+}
+}
+
+
+@media(min-width:900px){
+     .grid-container{
+            grid-template-columns: 200px auto;
+            grid-template-rows: 100px 50px auto 100px;
+            grid-template-areas: 
+            "header header header"
+            "navbar navbar navbar"
+            "sidebar sidebar main "
+            "footer footer footer"
+
+                
+                ;
+           
+            }
+
+        
+        }
+
+
+
+</style>
+
+
+</head>
+<body class="grid-container">
+    <header class="header"></header>
+    <nav class="navbar"></nav>
+    <aside class="sidebar"></aside>
+    <article class="main"></article>
+    <footer></footer>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    background-color: #C8A2C8;
+}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.contenedor img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin-right: 15px; /* Espacio entre la imagen y los enlaces */
+}
+
+nav {
+
+    display: flex; /* Utiliza Flexbox para alinear los enlaces */
+    justify-content: flex-end; /* Alinea los enlaces */
+    align-items: center;
+
+}
+
+nav a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Estilos para los enlaces de navegación cuando se coloca el cursor sobre ellos */
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+#quehacemos {
+    text-align: justify;
+    text-transform: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nosotros{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.pf {
+    line-height: 1.5;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: justify;
+    word-spacing: 10;
+}
+
+ul li {
+    list-style: square;
+    padding: 4px;
+    font-family: sans-serif;
+
+}
+
+.centro{
+    text-align: center;
+
+}
+
+.fotosmujeres{
+    display: block;
+    margin: 0 auto;
+}
+.column{
+    margin: 10px 20px 10px 10px;
+}
+.row img{
+    display: block;
+    margin: 0 auto;
+}
+.row {
+    line-height: 1.8;
+    text-align: justify;
+}
+.testimonio-container {
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    line-height: 2.1;
+}
+.column {
+    flex: auto;
+    margin-right: 20px;
+}
+/**{
+    text-align: justify;
+}*/
