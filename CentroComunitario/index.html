@@ -6,6 +6,51 @@
     <title>Centro Comunitario Ada Lovelace</title>
     <link rel="icon" type="image" href="./src/logosinfondoblanco.png"> <!--K-->
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-size: 16px;
+        }
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        .logo {
+            max-width: 100%;
+            height: auto;
+        }
+        .valores {
+            padding: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            .contenedor {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav {
+                margin-top: 20px;
+            }
+            .nosotros {
+                max-width: 100%;
+                height: auto;
+            }
+            .valores {
+                padding: 10px;
+            }
+            .redes {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    </style>
 </head>
 <header>
 </header>
@@ -19,41 +64,35 @@
             <a href="./Contacto.html">Contacto</a>
         </nav>
     </div>
-    <div>
-        <div class="contenido"><!--Carmen-->
-            <img src="./src/nosotros.jpg" width="1000" height="600" class="nosotros">
-            <h1 id="quehacemos">¿Qué hacemos?</h1>
+    <div class="contenido"><!--Carmen-->
+        <img src="./src/nosotros.jpg" width="1000" height="600" class="nosotros">
+        <h1 id="quehacemos">¿Qué hacemos?</h1>
         <p class="pf">
             Trabajamos en la generación de conocimiento para y con las mujeres, sobre la relación con su entorno; lo hacemos de manera integral a través de investigación, difusión, intervención, reflexión, participación ciudadana y el trabajo coordinado con las autoridades para generar política pública que reivindique su lugar como ciudadanas activas con derechos impactando de manera positiva para ellas y su entorno.
         </p>
-        </div>
     </div>
-        <div>
-            <h1>Nuestros Valores</h1>
-            <ul>
-                <li><b>Empatía:</b> Reconocer  y sentir el trabajo de vida de las mujeres.</li>
-                <li><b>Integridad:</b> Priorizar la voz de las mujeres en todos nuestros proyectos.</li>
-                <li><b>Respeto:</b> Respetar los derechos de las mujeres.</li>
-                <li><b>Colaboración:</b> Trabajar siempre a través de la participación entre mujeres.</li>
-                <li><b>Responsabilidad:</b> Estar conscientes de nuestras capacidades para realizar cualquier proyecto.</li>
-                <li><b>Paz:</b> Promover paz en todos los proyectos a las mujeres.</li>
-            </ul>
-        </div>
-
-        <br>
-        
+    <div>
+        <h1>Nuestros Valores</h1>
+        <ul>
+            <li><b>Empatía:</b> Reconocer  y sentir el trabajo de vida de las mujeres.</li>
+            <li><b>Integridad:</b> Priorizar la voz de las mujeres en todos nuestros proyectos.</li>
+            <li><b>Respeto:</b> Respetar los derechos de las mujeres.</li>
+            <li><b>Colaboración:</b> Trabajar siempre a través de la participación entre mujeres.</li>
+            <li><b>Responsabilidad:</b> Estar conscientes de nuestras capacidades para realizar cualquier proyecto.</li>
+            <li><b>Paz:</b> Promover paz en todos los proyectos a las mujeres.</li>
+        </ul>
+    </div>
+    <br>
     <footer class="centro"> <!--Luz-->
         <div>
             <p>
-                    <br>Calle la Luz #4588, CP 44630, Guadalajara, Jal. Mexico
-                    <br>Telefono: +52 33 2477 4565
-                    <br>Horario de atencion: L - V 9:00 a 18:00
-                    <br>E-mail: centrocomunitarior@gmail.com
+                <br>Calle la Luz #4588, CP 44630, Guadalajara, Jal. Mexico
+                <br>Telefono: +52 33 2477 4565
+                <br>Horario de atencion: L - V 9:00 a 18:00
+                <br>E-mail: centrocomunitarior@gmail.com
             </p>
-    
             <img src="./src/redes.png" alt="" width="360px" height="80px">
         </div>
     </footer>
-        
 <body>
 </html>

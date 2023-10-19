@@ -6,7 +6,30 @@
     <title>Servicios</title> <!--Karina-->
     <link rel="icon" type="image" href="./src/logosinfondoblanco.png"> <!--K-->
     <link rel="stylesheet" href="style.css">
-    <style>  
+    <style>
+        @media (max-width: 768px) {
+            .nav {
+                justify-content: center;
+            }
+        }
+        /* Estilos para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .contenedor {
+                flex-direction: column;
+                align-items: center;
+            }
+            .contenedor img {
+                max-width: 100%;
+            }
+            .nav {
+                justify-content: center;
+            }
+        }
+        @media (max-width: 768px) {
+            .centro img {
+                max-width: 100%;
+            }
+        }
         .card {
             background-color: rgb(208, 126, 202);
             width: 300px;
@@ -14,16 +37,14 @@
             padding: 30px;
             text-align: center;
             border-radius: 10px;
-            }
-            
-            button{
+        }
+        button{
             background-color: lavender;
             color:black;
             border: none;
             padding: 10px;
             border-radius: 5px;
             align-items: center;
-
         }
         .card p{
             text-align: justify;
@@ -85,12 +106,11 @@
             gap: 10px;
             margin: 50px;
             justify-content: center;
-
         }
     </style>
 </head>
 <body>
-    <div class="contenedor"> <!--Alma-->
+    <div class="nav"> <!--Alma-->
         <a href="index.html"><img src="./src/cc-AdaLovelace-sinfondo.png" alt="Logo" height="100" width="500">
         </a>
             <nav>
@@ -99,16 +119,15 @@
             <a href="./Contacto.html">Contacto</a>
         </nav>
     </div>
-    </div>
      <!--Angela-->
     <h1>Servicios</h1>
-    <div class= "container">
+    <div class= "contenedor">
         <div class="card">
             <h2>Eventos comunitarios</h2>
             <img src="./src/eventos.jpg" alt="eventos comunitarios" width="300px" height="200">
             <p>El Centro comunitario crea eventos y oportunidades centrados en facilitar la conexión social dentro de la comunidad.</p>
             <p>Contáctanos para unirte a nuestro proximo evento Octubre 21, 2023</p>
-        <a href="Contacto.html"><button>Contáctanos</button></a>
+            <a href="Contacto.html"><button>Contáctanos</button></a>
         </div>
         <div class="card2">
             <h2>Cursos y talleres</h2>
@@ -144,19 +163,16 @@
         </div>
     </div>
     <br>
-
     <footer class="centro"> <!--Luz-->
         <div>
             <p>
-                    <br>Calle la Luz #4588, CP 44630, Guadalajara, Jal. Mexico
-                    <br>Telefono: +52 33 2477 4565
-                    <br>Horario de atencion: L - V 9:00 a 18:00
-                    <br>E-mail: centrocomunitarior@gmail.com
+                <br>Calle la Luz #4588, CP 44630, Guadalajara, Jal. Mexico
+                <br>Telefono: +52 33 2477 4565
+                <br>Horario de atencion: L - V 9:00 a 18:00
+                <br>E-mail: centrocomunitarior@gmail.com
             </p>
-    
             <img src="./src/redes.png" alt="" width="360px" height="80px">
         </div>
     </footer>
-
 </body>
 </html>
